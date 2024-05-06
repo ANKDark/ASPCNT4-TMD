@@ -36,7 +36,33 @@ namespace TMD_Lesson02.Controllers
 
         public ActionResult NgonNguRazor ()
         {
+            string[] names = { "Trần Minh Đức", "Hoàng Kim Oanh", "Trần ...", "Đức đẹp trai" };
+            ViewBag.names = names;
             return View();
+        }
+
+        //HTMLHelper
+
+        public ActionResult AddNewStudent()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult AddNewStudent(FormCollection form)
+        {
+            //Lấy dữ liệu trên form
+            string fullname = form["Fullname"];
+            string masv = form["maSV"];
+            string taikhoan = form["Taikhoan"];
+            string matkhau = form["matkhau"];
+
+            string tmdStr = "<h3>" + fullname + "<h3/>";
+            tmdStr += "<p>" + masv;
+            tmdStr += "<p>" + taikhoan;
+            tmdStr += "<p>" + matkhau;
+
+            ViewBag.info = tmdStr;
+            return View("ketqua");
         }
     }
 }

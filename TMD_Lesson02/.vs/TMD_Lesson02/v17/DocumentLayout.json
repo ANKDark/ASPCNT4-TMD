@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Learn\\ASP\\TMD_Lesson02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|c:\\learn\\asp\\tmd_lesson02\\tmd_lesson02\\views\\tmdstudent\\ketqua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|solutionrelative:tmd_lesson02\\views\\tmdstudent\\ketqua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|C:\\Learn\\ASP\\TMD_Lesson02\\tmd_lesson02\\controllers\\tmdstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|solutionrelative:tmd_lesson02\\controllers\\tmdstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|c:\\learn\\asp\\tmd_lesson02\\tmd_lesson02\\views\\tmdstudent\\ngonngurazor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|solutionrelative:tmd_lesson02\\views\\tmdstudent\\ngonngurazor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|c:\\learn\\asp\\tmd_lesson02\\tmd_lesson02\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|c:\\learn\\asp\\tmd_lesson02\\tmd_lesson02\\views\\tmdstudent\\addnewstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|solutionrelative:tmd_lesson02\\views\\tmdstudent\\addnewstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|C:\\Learn\\ASP\\TMD_Lesson02\\tmd_lesson02\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|solutionrelative:tmd_lesson02\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|c:\\learn\\asp\\tmd_lesson02\\tmd_lesson02\\views\\tmdstudent\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|solutionrelative:tmd_lesson02\\views\\tmdstudent\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|c:\\learn\\asp\\tmd_lesson02\\tmd_lesson02\\controllers\\tmdstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|solutionrelative:tmd_lesson02\\controllers\\tmdstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|c:\\learn\\asp\\tmd_lesson02\\tmd_lesson02\\views\\tmdstudent\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA747CF6-DCB0-42EB-93E1-47411400F8E2}|TMD_Lesson02\\TMD_Lesson02.csproj|solutionrelative:tmd_lesson02\\views\\tmdstudent\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,64 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NgonNguRazor.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\NgonNguRazor.cshtml",
-              "RelativeDocumentMoniker": "TMD_Lesson02\\Views\\TMDStudent\\NgonNguRazor.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\NgonNguRazor.cshtml",
-              "RelativeToolTip": "TMD_Lesson02\\Views\\TMDStudent\\NgonNguRazor.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Title": "ketqua.cshtml",
+              "DocumentMoniker": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\ketqua.cshtml",
+              "RelativeDocumentMoniker": "TMD_Lesson02\\Views\\TMDStudent\\ketqua.cshtml",
+              "ToolTip": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\ketqua.cshtml",
+              "RelativeToolTip": "TMD_Lesson02\\Views\\TMDStudent\\ketqua.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T07:16:25.004Z",
+              "WhenOpened": "2024-05-06T08:39:05.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "chitiet.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\chitiet.cshtml",
-              "RelativeDocumentMoniker": "TMD_Lesson02\\Views\\TMDStudent\\chitiet.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\chitiet.cshtml",
-              "RelativeToolTip": "TMD_Lesson02\\Views\\TMDStudent\\chitiet.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Title": "NgonNguRazor.cshtml",
+              "DocumentMoniker": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\NgonNguRazor.cshtml",
+              "RelativeDocumentMoniker": "TMD_Lesson02\\Views\\TMDStudent\\NgonNguRazor.cshtml",
+              "ToolTip": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\NgonNguRazor.cshtml",
+              "RelativeToolTip": "TMD_Lesson02\\Views\\TMDStudent\\NgonNguRazor.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T07:05:15.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\Index.cshtml",
-              "RelativeDocumentMoniker": "TMD_Lesson02\\Views\\TMDStudent\\Index.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\Index.cshtml",
-              "RelativeToolTip": "TMD_Lesson02\\Views\\TMDStudent\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T06:56:46.923Z",
+              "WhenOpened": "2024-05-06T08:31:21.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AddNewStudent.cshtml",
+              "DocumentMoniker": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\AddNewStudent.cshtml",
+              "RelativeDocumentMoniker": "TMD_Lesson02\\Views\\TMDStudent\\AddNewStudent.cshtml",
+              "ToolTip": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\TMDStudent\\AddNewStudent.cshtml",
+              "RelativeToolTip": "TMD_Lesson02\\Views\\TMDStudent\\AddNewStudent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T08:16:49.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TMDStudentController.cs",
               "DocumentMoniker": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Controllers\\TMDStudentController.cs",
               "RelativeDocumentMoniker": "TMD_Lesson02\\Controllers\\TMDStudentController.cs",
               "ToolTip": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Controllers\\TMDStudentController.cs",
               "RelativeToolTip": "TMD_Lesson02\\Controllers\\TMDStudentController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAgwCQAAAAgAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAmwD8AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T06:55:57.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TMD_Lesson02\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Learn\\ASP\\TMD_Lesson02\\TMD_Lesson02\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "TMD_Lesson02\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA/AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-06T06:54:35.776Z",
               "EditorCaption": ""

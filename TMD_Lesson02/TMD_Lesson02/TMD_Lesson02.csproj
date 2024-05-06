@@ -181,6 +181,8 @@
     <Content Include="Views\TMDStudent\Index.cshtml" />
     <Content Include="Views\TMDStudent\chitiet.cshtml" />
     <Content Include="Views\TMDStudent\NgonNguRazor.cshtml" />
+    <Content Include="Views\TMDStudent\AddNewStudent.cshtml" />
+    <Content Include="Views\TMDStudent\ketqua.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
