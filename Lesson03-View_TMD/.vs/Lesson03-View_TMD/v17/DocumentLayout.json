@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Learn\\ASP\\Lesson03-View_TMD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E977CEEE-B69B-40B3-A306-94E09F232AD5}|Lap03.2_TMD\\Lap03.2_TMD.csproj|c:\\learn\\asp\\lesson03-view_tmd\\lap03.2_tmd\\views\\razorview\\array_loop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E977CEEE-B69B-40B3-A306-94E09F232AD5}|Lap03.2_TMD\\Lap03.2_TMD.csproj|solutionrelative:lap03.2_tmd\\views\\razorview\\array_loop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A33514F2-84D5-4EEC-9DD9-C4DDBC35240C}|BTTuLam3.2_TMD\\BTTuLam3.2_TMD.csproj|c:\\learn\\asp\\lesson03-view_tmd\\bttulam3.2_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A33514F2-84D5-4EEC-9DD9-C4DDBC35240C}|BTTuLam3.2_TMD\\BTTuLam3.2_TMD.csproj|solutionrelative:bttulam3.2_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E977CEEE-B69B-40B3-A306-94E09F232AD5}|Lap03.2_TMD\\Lap03.2_TMD.csproj|c:\\learn\\asp\\lesson03-view_tmd\\lap03.2_tmd\\views\\razorview\\variable_if_else_switch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E977CEEE-B69B-40B3-A306-94E09F232AD5}|Lap03.2_TMD\\Lap03.2_TMD.csproj|solutionrelative:lap03.2_tmd\\views\\razorview\\variable_if_else_switch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A33514F2-84D5-4EEC-9DD9-C4DDBC35240C}|BTTuLam3.2_TMD\\BTTuLam3.2_TMD.csproj|c:\\learn\\asp\\lesson03-view_tmd\\bttulam3.2_tmd\\views\\frmregister_tmd\\formregister_tmd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A33514F2-84D5-4EEC-9DD9-C4DDBC35240C}|BTTuLam3.2_TMD\\BTTuLam3.2_TMD.csproj|solutionrelative:bttulam3.2_tmd\\views\\frmregister_tmd\\formregister_tmd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E977CEEE-B69B-40B3-A306-94E09F232AD5}|Lap03.2_TMD\\Lap03.2_TMD.csproj|c:\\learn\\asp\\lesson03-view_tmd\\lap03.2_tmd\\controllers\\razorviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E977CEEE-B69B-40B3-A306-94E09F232AD5}|Lap03.2_TMD\\Lap03.2_TMD.csproj|solutionrelative:lap03.2_tmd\\controllers\\razorviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A33514F2-84D5-4EEC-9DD9-C4DDBC35240C}|BTTuLam3.2_TMD\\BTTuLam3.2_TMD.csproj|c:\\learn\\asp\\lesson03-view_tmd\\bttulam3.2_tmd\\controllers\\frmregister_tmdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33514F2-84D5-4EEC-9DD9-C4DDBC35240C}|BTTuLam3.2_TMD\\BTTuLam3.2_TMD.csproj|solutionrelative:bttulam3.2_tmd\\controllers\\frmregister_tmdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E977CEEE-B69B-40B3-A306-94E09F232AD5}|Lap03.2_TMD\\Lap03.2_TMD.csproj|c:\\learn\\asp\\lesson03-view_tmd\\lap03.2_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E977CEEE-B69B-40B3-A306-94E09F232AD5}|Lap03.2_TMD\\Lap03.2_TMD.csproj|solutionrelative:lap03.2_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A751E998-0B62-4F06-AE7A-8D5A2B4F4052}|Lesson03-View_TMD\\Lesson03-View_TMD.csproj|c:\\learn\\asp\\lesson03-view_tmd\\lesson03-view_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A751E998-0B62-4F06-AE7A-8D5A2B4F4052}|Lesson03-View_TMD\\Lesson03-View_TMD.csproj|solutionrelative:lesson03-view_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A33514F2-84D5-4EEC-9DD9-C4DDBC35240C}|BTTuLam3.2_TMD\\BTTuLam3.2_TMD.csproj|c:\\learn\\asp\\lesson03-view_tmd\\bttulam3.2_tmd\\views\\frmregister_tmd\\capnhat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A33514F2-84D5-4EEC-9DD9-C4DDBC35240C}|BTTuLam3.2_TMD\\BTTuLam3.2_TMD.csproj|solutionrelative:bttulam3.2_tmd\\views\\frmregister_tmd\\capnhat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\Lesson03-View_TMD\\Lesson03-View_TMD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Lesson03-View_TMD\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\Lesson03-View_TMD\\Lesson03-View_TMD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Lesson03-View_TMD\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
+              "DocumentMoniker": "C:\\Learn\\ASP\\Lesson03-View_TMD\\BTTuLam3.2_TMD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BTTuLam3.2_TMD\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Learn\\ASP\\Lesson03-View_TMD\\BTTuLam3.2_TMD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BTTuLam3.2_TMD\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T11:16:14.594Z",
+              "WhenOpened": "2024-05-09T18:34:26.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\Lesson03-View_TMD\\Lap03.2_TMD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Lap03.2_TMD\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\Lesson03-View_TMD\\Lap03.2_TMD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Lap03.2_TMD\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAKAAAA",
+              "Title": "Capnhat.cshtml",
+              "DocumentMoniker": "C:\\Learn\\ASP\\Lesson03-View_TMD\\BTTuLam3.2_TMD\\Views\\FrmRegister_TMD\\Capnhat.cshtml",
+              "RelativeDocumentMoniker": "BTTuLam3.2_TMD\\Views\\FrmRegister_TMD\\Capnhat.cshtml",
+              "ToolTip": "C:\\Learn\\ASP\\Lesson03-View_TMD\\BTTuLam3.2_TMD\\Views\\FrmRegister_TMD\\Capnhat.cshtml",
+              "RelativeToolTip": "BTTuLam3.2_TMD\\Views\\FrmRegister_TMD\\Capnhat.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T11:10:26.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Array_Loop.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\Lesson03-View_TMD\\Lap03.2_TMD\\Views\\RazorView\\Array_Loop.cshtml",
-              "RelativeDocumentMoniker": "Lap03.2_TMD\\Views\\RazorView\\Array_Loop.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\Lesson03-View_TMD\\Lap03.2_TMD\\Views\\RazorView\\Array_Loop.cshtml",
-              "RelativeToolTip": "Lap03.2_TMD\\Views\\RazorView\\Array_Loop.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAwwCIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T11:06:25.442Z",
+              "WhenOpened": "2024-05-09T18:16:56.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Variable_If_Else_Switch.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\Lesson03-View_TMD\\Lap03.2_TMD\\Views\\RazorView\\Variable_If_Else_Switch.cshtml",
-              "RelativeDocumentMoniker": "Lap03.2_TMD\\Views\\RazorView\\Variable_If_Else_Switch.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\Lesson03-View_TMD\\Lap03.2_TMD\\Views\\RazorView\\Variable_If_Else_Switch.cshtml",
-              "RelativeToolTip": "Lap03.2_TMD\\Views\\RazorView\\Variable_If_Else_Switch.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Title": "FormRegister_TMD.cshtml",
+              "DocumentMoniker": "C:\\Learn\\ASP\\Lesson03-View_TMD\\BTTuLam3.2_TMD\\Views\\FrmRegister_TMD\\FormRegister_TMD.cshtml",
+              "RelativeDocumentMoniker": "BTTuLam3.2_TMD\\Views\\FrmRegister_TMD\\FormRegister_TMD.cshtml",
+              "ToolTip": "C:\\Learn\\ASP\\Lesson03-View_TMD\\BTTuLam3.2_TMD\\Views\\FrmRegister_TMD\\FormRegister_TMD.cshtml",
+              "RelativeToolTip": "BTTuLam3.2_TMD\\Views\\FrmRegister_TMD\\FormRegister_TMD.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T11:03:27.54Z",
+              "WhenOpened": "2024-05-09T17:19:00.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RazorViewController.cs",
-              "DocumentMoniker": "C:\\Learn\\ASP\\Lesson03-View_TMD\\Lap03.2_TMD\\Controllers\\RazorViewController.cs",
-              "RelativeDocumentMoniker": "Lap03.2_TMD\\Controllers\\RazorViewController.cs",
-              "ToolTip": "C:\\Learn\\ASP\\Lesson03-View_TMD\\Lap03.2_TMD\\Controllers\\RazorViewController.cs",
-              "RelativeToolTip": "Lap03.2_TMD\\Controllers\\RazorViewController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAfAAAA",
+              "Title": "FrmRegister_TMDController.cs",
+              "DocumentMoniker": "C:\\Learn\\ASP\\Lesson03-View_TMD\\BTTuLam3.2_TMD\\Controllers\\FrmRegister_TMDController.cs",
+              "RelativeDocumentMoniker": "BTTuLam3.2_TMD\\Controllers\\FrmRegister_TMDController.cs",
+              "ToolTip": "C:\\Learn\\ASP\\Lesson03-View_TMD\\BTTuLam3.2_TMD\\Controllers\\FrmRegister_TMDController.cs",
+              "RelativeToolTip": "BTTuLam3.2_TMD\\Controllers\\FrmRegister_TMDController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T11:02:29.153Z",
+              "WhenOpened": "2024-05-09T17:18:22.546Z",
               "EditorCaption": ""
             }
           ]
