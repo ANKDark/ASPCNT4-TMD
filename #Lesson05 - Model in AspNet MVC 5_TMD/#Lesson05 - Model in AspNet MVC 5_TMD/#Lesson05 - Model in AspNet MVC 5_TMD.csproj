@@ -122,6 +122,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TMDCustomerController.cs" />
+    <Compile Include="Controllers\TMDCustomerScaffdingController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -181,6 +182,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\TMDCustomer\TMDCustomerDetails.cshtml" />
     <Content Include="Views\TMDCustomer\TMDListCustomer.cshtml" />
+    <Content Include="Views\TMDCustomerScaffding\Index.cshtml" />
+    <Content Include="Views\TMDCustomerScaffding\Create_TMD.cshtml" />
+    <Content Include="Views\TMDCustomerScaffding\Edit_TMD.cshtml" />
+    <Content Include="Views\TMDCustomerScaffding\Details_TMD.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

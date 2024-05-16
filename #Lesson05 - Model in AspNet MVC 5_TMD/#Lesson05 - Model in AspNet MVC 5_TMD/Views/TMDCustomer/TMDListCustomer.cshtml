@@ -1,6 +1,10 @@
-﻿
+﻿@model List<_Lesson05___Model_in_AspNet_MVC_5_TMD.Models.TMDCustomer>
 @{
     ViewBag.Title = "Danh sách khách hàng";
+    //var list_tmd = ViewBag.list_tmd;
+    //var list_tmd = Model as List<_Lesson05___Model_in_AspNet_MVC_5_TMD.Models.TMDCustomer>;
+    int stt = 0;
+
 }
 
 <h2>Danh sách khách hàng</h2>
@@ -16,9 +20,21 @@
             </tr>
         </thead>
         <tbody>
+            @foreach (var item_tmd in Model)
+            {
+                stt++;
             <tr>
-                <td></td>
+                <td>@stt</td>
+                <td>@item_tmd.CustomerID_TMD</td>
+                <td>@item_tmd.FirstName_TMD @item_tmd.LastName_TMD</td>
+                <td>@item_tmd.Address_TMD</td>
+                <td>@item_tmd.YearOfBirth_TMD</td>
+                <td>
+                    <a href="#">Edit</a>
+                    <a href="#">Del</a>
+                </td>
             </tr>
+            }
         </tbody>
     </table>
 </div>

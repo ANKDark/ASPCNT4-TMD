@@ -1,0 +1,58 @@
+﻿@model _Lesson05___Model_in_AspNet_MVC_5_TMD.Models.TMDCustomer
+
+@{
+    ViewBag.Title = "Details_TMD";
+}
+
+<h2>Details_TMD</h2>
+
+<div>
+    <h4>TMDCustomer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerID_TMD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerID_TMD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName_TMD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName_TMD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName_TMD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName_TMD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address_TMD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address_TMD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.YearOfBirth_TMD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.YearOfBirth_TMD)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
