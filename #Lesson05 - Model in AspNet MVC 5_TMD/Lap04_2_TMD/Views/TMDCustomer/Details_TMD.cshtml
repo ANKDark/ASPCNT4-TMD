@@ -1,0 +1,55 @@
+﻿@model Lap04_2_TMD.Models.Customer_TMD
+
+@{
+    ViewBag.Title = "Details_TMD";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details_TMD</h2>
+
+<div>
+    <h3>Thông tin chi tiết</h3>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã khách hàng
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerId_TMD)
+        </dd>
+        <dt>
+            Họ và tên
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FullName_TMD)
+        </dd>
+        <dt>
+            Địa chỉ
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address_TMD)
+        </dd>
+        <dt>
+            Email
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email_TMD)
+        </dd>
+        <dt>
+            Điện thoại
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Phone_TMD)
+        </dd>
+        <dt>
+            Số dư
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Balance_TMD)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit_TMD", new { id_TMD = Model.CustomerId_TMD })
+    @Html.ActionLink("Quay lại", "GetCustomers_TMD")
+</p>

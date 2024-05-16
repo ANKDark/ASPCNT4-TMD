@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\#lesson05 - model in aspnet mvc 5_tmd\\controllers\\tmdcustomerscaffdingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|solutionrelative:#lesson05 - model in aspnet mvc 5_tmd\\controllers\\tmdcustomerscaffdingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\bai2_tmd\\views\\tmdanh\\addanh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\views\\tmdanh\\addanh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\#lesson05 - model in aspnet mvc 5_tmd\\views\\tmdcustomerscaffding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|solutionrelative:#lesson05 - model in aspnet mvc 5_tmd\\views\\tmdcustomerscaffding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\bai2_tmd\\models\\ianh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\models\\ianh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\#lesson05 - model in aspnet mvc 5_tmd\\views\\tmdcustomerscaffding\\details_tmd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|solutionrelative:#lesson05 - model in aspnet mvc 5_tmd\\views\\tmdcustomerscaffding\\details_tmd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\bai2_tmd\\controllers\\tmdanhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\controllers\\tmdanhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\#lesson05 - model in aspnet mvc 5_tmd\\views\\tmdcustomerscaffding\\edit_tmd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|solutionrelative:#lesson05 - model in aspnet mvc 5_tmd\\views\\tmdcustomerscaffding\\edit_tmd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\bai2_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\#lesson05 - model in aspnet mvc 5_tmd\\views\\tmdcustomerscaffding\\create_tmd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|solutionrelative:#lesson05 - model in aspnet mvc 5_tmd\\views\\tmdcustomerscaffding\\create_tmd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\bai2_tmd\\views\\tmdanh\\getanhs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\views\\tmdanh\\getanhs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#lesson05 - model in aspnet mvc 5_tmd\\controllers\\tmdcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|solutionrelative:#lesson05 - model in aspnet mvc 5_tmd\\controllers\\tmdcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#lesson05 - model in aspnet mvc 5_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|solutionrelative:#lesson05 - model in aspnet mvc 5_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#lesson05 - model in aspnet mvc 5_tmd\\views\\tmdcustomer\\tmdcustomerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD7EC786-C164-4A0E-B70A-E881E7638084}|#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD.csproj|solutionrelative:#lesson05 - model in aspnet mvc 5_tmd\\views\\tmdcustomer\\tmdcustomerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\bai2_tmd\\models\\anhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\models\\anhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details_TMD.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Details_TMD.cshtml",
-              "RelativeDocumentMoniker": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Details_TMD.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Details_TMD.cshtml",
-              "RelativeToolTip": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Details_TMD.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T05:05:23.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit_TMD.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Edit_TMD.cshtml",
-              "RelativeDocumentMoniker": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Edit_TMD.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Edit_TMD.cshtml",
-              "RelativeToolTip": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Edit_TMD.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T05:01:11.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create_TMD.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Create_TMD.cshtml",
-              "RelativeDocumentMoniker": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Create_TMD.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Create_TMD.cshtml",
-              "RelativeToolTip": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Create_TMD.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T04:43:14.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Index.cshtml",
-              "RelativeDocumentMoniker": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Index.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Index.cshtml",
-              "RelativeToolTip": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomerScaffding\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACsAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T04:39:18.602Z",
+              "Title": "IAnh.cs",
+              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Models\\IAnh.cs",
+              "RelativeDocumentMoniker": "Bai2_TMD\\Models\\IAnh.cs",
+              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Models\\IAnh.cs",
+              "RelativeToolTip": "Bai2_TMD\\Models\\IAnh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:19:29.145Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TMDCustomerScaffdingController.cs",
-              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Controllers\\TMDCustomerScaffdingController.cs",
-              "RelativeDocumentMoniker": "#Lesson05 - Model in AspNet MVC 5_TMD\\Controllers\\TMDCustomerScaffdingController.cs",
-              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Controllers\\TMDCustomerScaffdingController.cs",
-              "RelativeToolTip": "#Lesson05 - Model in AspNet MVC 5_TMD\\Controllers\\TMDCustomerScaffdingController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAwwGIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T04:36:17.307Z",
+              "Title": "AddAnh.cshtml",
+              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Views\\TMDAnh\\AddAnh.cshtml",
+              "RelativeDocumentMoniker": "Bai2_TMD\\Views\\TMDAnh\\AddAnh.cshtml",
+              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Views\\TMDAnh\\AddAnh.cshtml",
+              "RelativeToolTip": "Bai2_TMD\\Views\\TMDAnh\\AddAnh.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:37:37.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAKAAAA",
+              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Bai2_TMD\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Bai2_TMD\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T14:52:39.877Z",
+              "WhenOpened": "2024-05-16T18:33:00.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TMDCustomerDetails.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomer\\TMDCustomerDetails.cshtml",
-              "RelativeDocumentMoniker": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomer\\TMDCustomerDetails.cshtml",
-              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomer\\TMDCustomerDetails.cshtml",
-              "RelativeToolTip": "#Lesson05 - Model in AspNet MVC 5_TMD\\Views\\TMDCustomer\\TMDCustomerDetails.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "DocumentIndex": 4,
+              "Title": "GetAnhs.cshtml",
+              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Views\\TMDAnh\\GetAnhs.cshtml",
+              "RelativeDocumentMoniker": "Bai2_TMD\\Views\\TMDAnh\\GetAnhs.cshtml",
+              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Views\\TMDAnh\\GetAnhs.cshtml",
+              "RelativeToolTip": "Bai2_TMD\\Views\\TMDAnh\\GetAnhs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T14:50:11.259Z",
+              "WhenOpened": "2024-05-16T18:32:03.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "TMDCustomerController.cs",
-              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Controllers\\TMDCustomerController.cs",
-              "RelativeDocumentMoniker": "#Lesson05 - Model in AspNet MVC 5_TMD\\Controllers\\TMDCustomerController.cs",
-              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\#Lesson05 - Model in AspNet MVC 5_TMD\\Controllers\\TMDCustomerController.cs",
-              "RelativeToolTip": "#Lesson05 - Model in AspNet MVC 5_TMD\\Controllers\\TMDCustomerController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAwD8AAAAiAAAA",
+              "Title": "Anhh.cs",
+              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Models\\Anhh.cs",
+              "RelativeDocumentMoniker": "Bai2_TMD\\Models\\Anhh.cs",
+              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Models\\Anhh.cs",
+              "RelativeToolTip": "Bai2_TMD\\Models\\Anhh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:45:09.737Z",
+              "WhenOpened": "2024-05-16T18:23:27.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TMDAnhController.cs",
+              "DocumentMoniker": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Controllers\\TMDAnhController.cs",
+              "RelativeDocumentMoniker": "Bai2_TMD\\Controllers\\TMDAnhController.cs",
+              "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Controllers\\TMDAnhController.cs",
+              "RelativeToolTip": "Bai2_TMD\\Controllers\\TMDAnhController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:59:25.902Z",
               "EditorCaption": ""
             }
           ]

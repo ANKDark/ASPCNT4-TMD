@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Lap04_2_TMD.Models.Customer_TMD>
+
+@{
+    ViewBag.Title = "Danh sách khách hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Danh sách khách hàng</h2>
+
+@using (Html.BeginForm())
+{
+    <b>Nhập tên cần tìm </b> @Html.TextBox("name_TMD")
+    <input type="submit" value=" Tìm " />
+}
+
+<p>
+    @Html.ActionLink("Thêm mới", "Create_TMD")
+</p>
+
+<table class="table table-bordered">
+    <tr>
+        <th>
+            Mã khách hàng
+        </th>
+        <th>
+            Họ và tên
+        </th>
+        <th>
+            Địa chỉ
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Điện thoại
+        </th>
+        <th>
+            Số dư
+        </th>
+        <th>
+            Thao tác
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerId_TMD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName_TMD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address_TMD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email_TMD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone_TMD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Balance_TMD)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit_TMD", new { id_TMD = item.CustomerId_TMD }) |
+                @Html.ActionLink("Chi tiết", "Details_TMD", new { id_TMD = item.CustomerId_TMD }) |
+                @Html.ActionLink("Xóa", "Delete_TMD", new { id_TMD = item.CustomerId_TMD }, new { onclick = "return confirm('Bạn có muốn xóa khách hàng " + item.CustomerId_TMD + " không')" })
+            </td>
+        </tr>
+    }
+</table>

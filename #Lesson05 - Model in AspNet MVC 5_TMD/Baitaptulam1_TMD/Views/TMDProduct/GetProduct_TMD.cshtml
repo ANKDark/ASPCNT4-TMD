@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Baitaptulam1_TMD.Models.Product_TMD>
+
+@{
+    ViewBag.Title = "GetProduct_TMD";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Danh sách sản phẩm</h2>
+
+@using (Html.BeginForm())
+{
+    <b>Nhập tên cần tìm </b> @Html.TextBox("name_TMD")
+    <input type="submit" value=" Tìm " />
+}
+
+<p>
+    @Html.ActionLink("Thêm mới", "Create_TMD")
+</p>
+
+<table class="table table-bordered">
+    <tr>
+        <th>
+            Product ID
+        </th>
+        <th>
+            Product name
+        </th>
+        <th>
+            Unit
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            Action
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductId_TMD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName_TMD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Unit_TMD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price_TMD)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit_TMD", new { id_TMD = item.ProductId_TMD }) |
+                @Html.ActionLink("Chi tiết", "Details_TMD", new { id_TMD = item.ProductId_TMD }) |
+                @Html.ActionLink("Xóa", "Delete_TMD", new { id_TMD = item.ProductId_TMD }, new { onclick = "return confirm('Bạn có muốn xóa sản phẩm có ID " + item.ProductId_TMD + " không?')" })
+            </td>
+        </tr>
+    }
+</table>
