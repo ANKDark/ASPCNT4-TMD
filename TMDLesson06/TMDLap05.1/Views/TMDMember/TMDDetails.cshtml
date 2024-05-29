@@ -1,0 +1,61 @@
+﻿@model TMDLap05._1.Models.TMDMember
+
+@{
+    ViewBag.Title = "Chi tiết thành viên";
+}
+
+<h2>Chi tiết thành viên</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã thành viên
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            Tên đăng nhập
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TMDUsername)
+        </dd>
+
+        <dt>
+           Họ và tên
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TMDFullName)
+        </dd>
+
+        <dt>
+            Mật khẩu
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TMDPassword)
+        </dd>
+
+        <dt>
+           Tuổi
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TMDAge)
+        </dd>
+
+        <dt>
+            Email
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TMDEmail)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Quay lại", "TMDCreateOne")
+</p>

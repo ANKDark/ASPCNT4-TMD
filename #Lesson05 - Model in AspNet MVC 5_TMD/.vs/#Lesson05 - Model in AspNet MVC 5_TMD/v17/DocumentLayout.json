@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\views\\tmdanh\\addanh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\bai2_tmd\\models\\ianh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\bai2_tmd\\models\\ianh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\models\\ianh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,15 +15,15 @@
       "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\controllers\\tmdanhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\bai2_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\bai2_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\bai2_tmd\\views\\tmdanh\\getanhs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\bai2_tmd\\views\\tmdanh\\getanhs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\views\\tmdanh\\getanhs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|c:\\learn\\asp\\#lesson05 - model in aspnet mvc 5_tmd\\bai2_tmd\\models\\anhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\bai2_tmd\\models\\anhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06648B9E-BA83-417D-823C-BB12F7AEA404}|Bai2_TMD\\Bai2_TMD.csproj|solutionrelative:bai2_tmd\\models\\anhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -47,8 +47,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T18:19:29.145Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -58,7 +57,7 @@
               "RelativeDocumentMoniker": "Bai2_TMD\\Views\\TMDAnh\\AddAnh.cshtml",
               "ToolTip": "C:\\Learn\\ASP\\#Lesson05 - Model in AspNet MVC 5_TMD\\Bai2_TMD\\Views\\TMDAnh\\AddAnh.cshtml",
               "RelativeToolTip": "Bai2_TMD\\Views\\TMDAnh\\AddAnh.cshtml",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-16T18:37:37.615Z",
               "EditorCaption": ""
@@ -73,8 +72,7 @@
               "RelativeToolTip": "Bai2_TMD\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T18:33:00.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T18:33:00.282Z"
             },
             {
               "$type": "Document",
@@ -86,8 +84,7 @@
               "RelativeToolTip": "Bai2_TMD\\Views\\TMDAnh\\GetAnhs.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T18:32:03.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T18:32:03.216Z"
             },
             {
               "$type": "Document",
@@ -99,8 +96,7 @@
               "RelativeToolTip": "Bai2_TMD\\Models\\Anhh.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T18:23:27.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T18:23:27.936Z"
             },
             {
               "$type": "Document",
@@ -112,8 +108,7 @@
               "RelativeToolTip": "Bai2_TMD\\Controllers\\TMDAnhController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:59:25.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T17:59:25.902Z"
             }
           ]
         }
