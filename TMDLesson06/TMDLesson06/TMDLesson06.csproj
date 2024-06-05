@@ -181,6 +181,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\TMDSong\TMDIndex.cshtml" />
     <Content Include="Views\TMDSong\TMDCreate.cshtml" />
+    <Content Include="Views\TMDSong\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

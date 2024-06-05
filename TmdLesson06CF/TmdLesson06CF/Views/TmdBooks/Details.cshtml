@@ -1,0 +1,74 @@
+﻿@model TmdLesson06CF.Models.TmdBook
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TmdBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdBookId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdBookId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdPublic)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdPublic)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdPicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdPicture)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdCategoryId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdCategoryId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TmdId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
