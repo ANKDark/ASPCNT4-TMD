@@ -1,0 +1,40 @@
+﻿@model TmdLap06._1.Models.TmdProduct
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>TmdProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdProductName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdProductName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdPrice)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "TmdIndex")
+        </div>
+    }
+</div>
