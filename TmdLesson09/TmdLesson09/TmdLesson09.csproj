@@ -130,7 +130,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TmdKetquasController.cs" />
     <Compile Include="Controllers\TmdKhoasController.cs" />
+    <Compile Include="Controllers\TmdMonHocsController.cs" />
+    <Compile Include="Controllers\TmdSinhViensController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -239,6 +242,21 @@
     <Content Include="Views\TmdKhoas\Details.cshtml" />
     <Content Include="Views\TmdKhoas\Edit.cshtml" />
     <Content Include="Views\TmdKhoas\Index.cshtml" />
+    <Content Include="Views\TmdKetquas\Create.cshtml" />
+    <Content Include="Views\TmdKetquas\Delete.cshtml" />
+    <Content Include="Views\TmdKetquas\Details.cshtml" />
+    <Content Include="Views\TmdKetquas\Edit.cshtml" />
+    <Content Include="Views\TmdKetquas\Index.cshtml" />
+    <Content Include="Views\TmdMonHocs\Create.cshtml" />
+    <Content Include="Views\TmdMonHocs\Delete.cshtml" />
+    <Content Include="Views\TmdMonHocs\Details.cshtml" />
+    <Content Include="Views\TmdMonHocs\Edit.cshtml" />
+    <Content Include="Views\TmdMonHocs\Index.cshtml" />
+    <Content Include="Views\TmdSinhViens\Create.cshtml" />
+    <Content Include="Views\TmdSinhViens\Delete.cshtml" />
+    <Content Include="Views\TmdSinhViens\Details.cshtml" />
+    <Content Include="Views\TmdSinhViens\Edit.cshtml" />
+    <Content Include="Views\TmdSinhViens\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,42 @@
+﻿@model TmdLesson09.Models.TmdKetqua
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TmdKetqua</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdDiem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdDiem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdMonHoc.TmdTenMH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdMonHoc.TmdTenMH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdSinhVien.TmdHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdSinhVien.TmdHoSV)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
