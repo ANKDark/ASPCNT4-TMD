@@ -1,105 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EE57B46C-8A55-4019-94DD-057281101695}|TmdLesson09\\TmdLesson09.csproj|C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\tmdlesson09\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE57B46C-8A55-4019-94DD-057281101695}|TmdLesson09\\TmdLesson09.csproj|solutionrelative:tmdlesson09\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE57B46C-8A55-4019-94DD-057281101695}|TmdLesson09\\TmdLesson09.csproj|c:\\learn\\aspcnt4-tmd\\tmdlesson09\\tmdlesson09\\controllers\\tmdkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE57B46C-8A55-4019-94DD-057281101695}|TmdLesson09\\TmdLesson09.csproj|solutionrelative:tmdlesson09\\controllers\\tmdkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE57B46C-8A55-4019-94DD-057281101695}|TmdLesson09\\TmdLesson09.csproj|c:\\learn\\aspcnt4-tmd\\tmdlesson09\\tmdlesson09\\controllers\\tmdketquascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE57B46C-8A55-4019-94DD-057281101695}|TmdLesson09\\TmdLesson09.csproj|solutionrelative:tmdlesson09\\controllers\\tmdketquascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE57B46C-8A55-4019-94DD-057281101695}|TmdLesson09\\TmdLesson09.csproj|c:\\learn\\aspcnt4-tmd\\tmdlesson09\\tmdlesson09\\controllers\\tmdsinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE57B46C-8A55-4019-94DD-057281101695}|TmdLesson09\\TmdLesson09.csproj|solutionrelative:tmdlesson09\\controllers\\tmdsinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE57B46C-8A55-4019-94DD-057281101695}|TmdLesson09\\TmdLesson09.csproj|c:\\learn\\aspcnt4-tmd\\tmdlesson09\\tmdlesson09\\controllers\\tmdmonhocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE57B46C-8A55-4019-94DD-057281101695}|TmdLesson09\\TmdLesson09.csproj|solutionrelative:tmdlesson09\\controllers\\tmdmonhocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TmdSinhViensController.cs",
-              "DocumentMoniker": "C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\TmdLesson09\\Controllers\\TmdSinhViensController.cs",
-              "RelativeDocumentMoniker": "TmdLesson09\\Controllers\\TmdSinhViensController.cs",
-              "ToolTip": "C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\TmdLesson09\\Controllers\\TmdSinhViensController.cs",
-              "RelativeToolTip": "TmdLesson09\\Controllers\\TmdSinhViensController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T09:43:07.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TmdMonHocsController.cs",
-              "DocumentMoniker": "C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\TmdLesson09\\Controllers\\TmdMonHocsController.cs",
-              "RelativeDocumentMoniker": "TmdLesson09\\Controllers\\TmdMonHocsController.cs",
-              "ToolTip": "C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\TmdLesson09\\Controllers\\TmdMonHocsController.cs",
-              "RelativeToolTip": "TmdLesson09\\Controllers\\TmdMonHocsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T09:41:29.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TmdKetquasController.cs",
-              "DocumentMoniker": "C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\TmdLesson09\\Controllers\\TmdKetquasController.cs",
-              "RelativeDocumentMoniker": "TmdLesson09\\Controllers\\TmdKetquasController.cs",
-              "ToolTip": "C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\TmdLesson09\\Controllers\\TmdKetquasController.cs",
-              "RelativeToolTip": "TmdLesson09\\Controllers\\TmdKetquasController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAjwBcAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T09:32:02.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TmdKhoasController.cs",
-              "DocumentMoniker": "C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\TmdLesson09\\Controllers\\TmdKhoasController.cs",
-              "RelativeDocumentMoniker": "TmdLesson09\\Controllers\\TmdKhoasController.cs",
-              "ToolTip": "C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\TmdLesson09\\Controllers\\TmdKhoasController.cs",
-              "RelativeToolTip": "TmdLesson09\\Controllers\\TmdKhoasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T09:11:01.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\TmdLesson09\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "TmdLesson09\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Learn\\ASPCNT4-TMD\\TmdLesson09\\TmdLesson09\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "TmdLesson09\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAUwAkAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T08:56:53.978Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

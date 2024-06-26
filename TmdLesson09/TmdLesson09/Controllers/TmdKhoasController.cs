@@ -15,13 +15,13 @@ namespace TmdLesson09.Controllers
         private tmd_qlsinhvienEntities db = new tmd_qlsinhvienEntities();
 
         // GET: TmdKhoas
-        public ActionResult Index()
+        public ActionResult TmdIndex()
         {
             return View(db.TmdKhoa.ToList());
         }
 
         // GET: TmdKhoas/Details/5
-        public ActionResult Details(string id)
+        public ActionResult TmdDetails(string id)
         {
             if (id == null)
             {
@@ -36,7 +36,7 @@ namespace TmdLesson09.Controllers
         }
 
         // GET: TmdKhoas/Create
-        public ActionResult Create()
+        public ActionResult TmdCreate()
         {
             return View();
         }
@@ -46,20 +46,20 @@ namespace TmdLesson09.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "TmdMaKH,TmdTenKH")] TmdKhoa tmdKhoa)
+        public ActionResult TmdCreate([Bind(Include = "TmdMaKH,TmdTenKH")] TmdKhoa tmdKhoa)
         {
             if (ModelState.IsValid)
             {
                 db.TmdKhoa.Add(tmdKhoa);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("TmdIndex");
             }
 
             return View(tmdKhoa);
         }
 
         // GET: TmdKhoas/Edit/5
-        public ActionResult Edit(string id)
+        public ActionResult TmdEdit(string id)
         {
             if (id == null)
             {
@@ -78,19 +78,19 @@ namespace TmdLesson09.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "TmdMaKH,TmdTenKH")] TmdKhoa tmdKhoa)
+        public ActionResult TmdEdit([Bind(Include = "TmdMaKH,TmdTenKH")] TmdKhoa tmdKhoa)
         {
             if (ModelState.IsValid)
             {
                 db.Entry(tmdKhoa).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("TmdIndex");
             }
             return View(tmdKhoa);
         }
 
         // GET: TmdKhoas/Delete/5
-        public ActionResult Delete(string id)
+        public ActionResult TmdDelete(string id)
         {
             if (id == null)
             {
@@ -105,14 +105,14 @@ namespace TmdLesson09.Controllers
         }
 
         // POST: TmdKhoas/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("TmdDelete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult TmdDeleteConfirmed(string id)
         {
             TmdKhoa tmdKhoa = db.TmdKhoa.Find(id);
             db.TmdKhoa.Remove(tmdKhoa);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("TmdIndex");
         }
 
         protected override void Dispose(bool disposing)

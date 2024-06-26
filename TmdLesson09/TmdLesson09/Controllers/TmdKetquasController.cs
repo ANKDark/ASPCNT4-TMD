@@ -15,20 +15,20 @@ namespace TmdLesson09.Controllers
         private tmd_qlsinhvienEntities db = new tmd_qlsinhvienEntities();
 
         // GET: TmdKetquas
-        public ActionResult Index()
+        public ActionResult TmdIndex()
         {
             var tmdKetqua = db.TmdKetqua.Include(t => t.TmdMonHoc).Include(t => t.TmdSinhVien);
             return View(tmdKetqua.ToList());
         }
 
         // GET: TmdKetquas/Details/5
-        public ActionResult Details(string id)
+        public ActionResult TmdDetails(string tmdMaMH, string tmdMaSV)
         {
-            if (id == null)
+            if (tmdMaMH == null || tmdMaSV == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            TmdKetqua tmdKetqua = db.TmdKetqua.Find(id);
+            TmdKetqua tmdKetqua = db.TmdKetqua.Find(tmdMaMH, tmdMaSV);
             if (tmdKetqua == null)
             {
                 return HttpNotFound();
@@ -37,7 +37,7 @@ namespace TmdLesson09.Controllers
         }
 
         // GET: TmdKetquas/Create
-        public ActionResult Create()
+        public ActionResult TmdCreate()
         {
             ViewBag.TmdMaMH = new SelectList(db.TmdMonHoc, "TmdMaMH", "TmdTenMH");
             ViewBag.TmdMaSV = new SelectList(db.TmdSinhVien, "TmdMaSV", "TmdHoSV");
@@ -49,13 +49,13 @@ namespace TmdLesson09.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "TmdMaMH,TmdMaSV,TmdDiem")] TmdKetqua tmdKetqua)
+        public ActionResult TmdCreate([Bind(Include = "TmdMaMH,TmdMaSV,TmdDiem")] TmdKetqua tmdKetqua)
         {
             if (ModelState.IsValid)
             {
                 db.TmdKetqua.Add(tmdKetqua);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("TmdIndex");
             }
 
             ViewBag.TmdMaMH = new SelectList(db.TmdMonHoc, "TmdMaMH", "TmdTenMH", tmdKetqua.TmdMaMH);
@@ -64,13 +64,13 @@ namespace TmdLesson09.Controllers
         }
 
         // GET: TmdKetquas/Edit/5
-        public ActionResult Edit(string id)
+        public ActionResult TmdEdit(string tmdMaMH, string tmdMaSV)
         {
-            if (id == null)
+            if (tmdMaMH == null || tmdMaSV == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            TmdKetqua tmdKetqua = db.TmdKetqua.Find(id);
+            TmdKetqua tmdKetqua = db.TmdKetqua.Find(tmdMaMH, tmdMaSV);
             if (tmdKetqua == null)
             {
                 return HttpNotFound();
@@ -83,15 +83,16 @@ namespace TmdLesson09.Controllers
         // POST: TmdKetquas/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: TmdKetquas/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "TmdMaMH,TmdMaSV,TmdDiem")] TmdKetqua tmdKetqua)
+        public ActionResult TmdEdit([Bind(Include = "TmdMaMH,TmdMaSV,TmdDiem")] TmdKetqua tmdKetqua)
         {
             if (ModelState.IsValid)
             {
                 db.Entry(tmdKetqua).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("TmdIndex");
             }
             ViewBag.TmdMaMH = new SelectList(db.TmdMonHoc, "TmdMaMH", "TmdTenMH", tmdKetqua.TmdMaMH);
             ViewBag.TmdMaSV = new SelectList(db.TmdSinhVien, "TmdMaSV", "TmdHoSV", tmdKetqua.TmdMaSV);
@@ -99,13 +100,13 @@ namespace TmdLesson09.Controllers
         }
 
         // GET: TmdKetquas/Delete/5
-        public ActionResult Delete(string id)
+        public ActionResult TmdDelete(string tmdMaMH, string tmdMaSV)
         {
-            if (id == null)
+            if (tmdMaMH == null || tmdMaSV == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            TmdKetqua tmdKetqua = db.TmdKetqua.Find(id);
+            TmdKetqua tmdKetqua = db.TmdKetqua.Find(tmdMaMH, tmdMaSV);
             if (tmdKetqua == null)
             {
                 return HttpNotFound();
@@ -114,14 +115,14 @@ namespace TmdLesson09.Controllers
         }
 
         // POST: TmdKetquas/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("TmdDelete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult TmdDeleteConfirmed(string tmdMaMH, string tmdMaSV)
         {
-            TmdKetqua tmdKetqua = db.TmdKetqua.Find(id);
+            TmdKetqua tmdKetqua = db.TmdKetqua.Find(tmdMaMH, tmdMaSV);
             db.TmdKetqua.Remove(tmdKetqua);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("TmdIndex");
         }
 
         protected override void Dispose(bool disposing)

@@ -29,9 +29,9 @@
             @Html.DisplayFor(modelItem => item.TmdSotiet)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.TmdMaMH }) |
-            @Html.ActionLink("Details", "Details", new { id=item.TmdMaMH }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.TmdMaMH })
+            @Html.ActionLink("Edit", "TmdEdit", new { id=item.TmdMaMH.Trim() }) |
+            @Html.ActionLink("Details", "TmdDetails", new { id=item.TmdMaMH.Trim() }) |
+            @Html.ActionLink("Delete", "TmdDelete", new { id=item.TmdMaMH.Trim() })
         </td>
     </tr>
 }

@@ -1,4 +1,4 @@
-﻿@model TmdLesson09.Models.TmdKhoa
+﻿@model TmdLesson09.Models.TmdMonHoc
 
 @{
     ViewBag.Title = "Delete";
@@ -8,15 +8,23 @@
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>TmdKhoa</h4>
+    <h4>TmdMonHoc</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.TmdTenKH)
+            @Html.DisplayNameFor(model => model.TmdTenMH)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.TmdTenKH)
+            @Html.DisplayFor(model => model.TmdTenMH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdSotiet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdSotiet)
         </dd>
 
     </dl>
@@ -26,7 +34,7 @@
 
         <div class="form-actions no-color">
             <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
+            @Html.ActionLink("Back to List", "TmdIndex")
         </div>
     }
 </div>

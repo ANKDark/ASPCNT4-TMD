@@ -1,0 +1,33 @@
+﻿@model TmdLesson09.Models.TmdKhoa
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TmdKhoa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã khoa
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdMaKH)
+        </dd>
+
+        <dt>
+            Tên khoa
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdTenKH)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "TmdEdit", new { id = Model.TmdMaKH }) |
+    @Html.ActionLink("Back to List", "TmdIndex")
+</p>

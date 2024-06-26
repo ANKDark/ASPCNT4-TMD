@@ -1,0 +1,48 @@
+﻿@model IEnumerable<TmdLesson09.Models.TmdKetqua>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("TMD: Create New", "TmdCreate")
+</p>
+<table class="table ">
+    <thead>
+        <tr>
+            <th>
+                Mã môn học
+            </th>
+            <th>
+                Mã sinh viên
+            </th>
+            <th>
+                Điểm
+            </th>
+            <th colspan="3">Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TmdMaMH)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TmdMaSV)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TmdDiem)
+                </td>
+                <td>
+                    @Html.ActionLink("TMD: Edit", "TmdEdit", new { tmdMaMH = item.TmdMaMH, tmdMaSV = item.TmdMaSV }) |
+                    @Html.ActionLink("TMD: Details", "TmdDetails", new { tmdMaMH = item.TmdMaMH, tmdMaSV = item.TmdMaSV }) |
+                    @Html.ActionLink("TMD: Delete", "TmdDelete", new { tmdMaMH = item.TmdMaMH, tmdMaSV = item.TmdMaSV })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

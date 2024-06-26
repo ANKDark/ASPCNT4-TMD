@@ -7,7 +7,7 @@
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "TmdCreate")
 </p>
 <table class="table">
     <tr>
@@ -65,9 +65,9 @@
             @Html.DisplayFor(modelItem => item.TmdKhoa.TmdTenKH)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.TmdMaSV }) |
-            @Html.ActionLink("Details", "Details", new { id=item.TmdMaSV }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.TmdMaSV })
+            @Html.ActionLink("Edit", "TmdEdit", new { id=item.TmdMaSV.Trim() }) |
+            @Html.ActionLink("Details", "TmdDetails", new { id=item.TmdMaSV.Trim() }) |
+            @Html.ActionLink("Delete", "TmdDelete", new { id=item.TmdMaSV.Trim() })
         </td>
     </tr>
 }

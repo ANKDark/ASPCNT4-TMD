@@ -1,0 +1,42 @@
+﻿@model TmdLesson09.Models.TmdKetqua
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4>Kết quả</h4>
+    </div>
+    <div class="panel-body">
+        <dl class="dl-horizontal">
+            <dt>
+                Mã môn học
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.TmdMaMH)
+            </dd>
+
+            <dt>
+                Mã sinh viên
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.TmdMaSV)
+            </dd>
+
+            <dt>
+                Điểm
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.TmdDiem)
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "TmdEdit", new { tmdMaMH = Model.TmdMaMH, tmdMaSV = Model.TmdMaSV }, new { @class = "btn btn-primary" }) |
+    @Html.ActionLink("Back to List", "TmdIndex", null, new { @class = "btn btn-danger" })
+</p>

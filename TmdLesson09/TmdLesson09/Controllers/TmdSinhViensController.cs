@@ -15,14 +15,14 @@ namespace TmdLesson09.Controllers
         private tmd_qlsinhvienEntities db = new tmd_qlsinhvienEntities();
 
         // GET: TmdSinhViens
-        public ActionResult Index()
+        public ActionResult TmdIndex()
         {
             var tmdSinhVien = db.TmdSinhVien.Include(t => t.TmdKhoa);
             return View(tmdSinhVien.ToList());
         }
 
         // GET: TmdSinhViens/Details/5
-        public ActionResult Details(string id)
+        public ActionResult TmdDetails(string id)
         {
             if (id == null)
             {
@@ -37,7 +37,7 @@ namespace TmdLesson09.Controllers
         }
 
         // GET: TmdSinhViens/Create
-        public ActionResult Create()
+        public ActionResult TmdCreate()
         {
             ViewBag.TmdMaKH = new SelectList(db.TmdKhoa, "TmdMaKH", "TmdTenKH");
             return View();
@@ -54,7 +54,7 @@ namespace TmdLesson09.Controllers
             {
                 db.TmdSinhVien.Add(tmdSinhVien);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("TmdIndex");
             }
 
             ViewBag.TmdMaKH = new SelectList(db.TmdKhoa, "TmdMaKH", "TmdTenKH", tmdSinhVien.TmdMaKH);
@@ -62,7 +62,7 @@ namespace TmdLesson09.Controllers
         }
 
         // GET: TmdSinhViens/Edit/5
-        public ActionResult Edit(string id)
+        public ActionResult TmdEdit(string id)
         {
             if (id == null)
             {
@@ -82,20 +82,20 @@ namespace TmdLesson09.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "TmdMaSV,TmdHoSV,TmdTenSV,TmdPhai,TmdNgaySinh,TmdNoiSinh,TmdMaKH,TmdHocBong,TmdDiemTrungBinh")] TmdSinhVien tmdSinhVien)
+        public ActionResult TmdEdit([Bind(Include = "TmdMaSV,TmdHoSV,TmdTenSV,TmdPhai,TmdNgaySinh,TmdNoiSinh,TmdMaKH,TmdHocBong,TmdDiemTrungBinh")] TmdSinhVien tmdSinhVien)
         {
             if (ModelState.IsValid)
             {
                 db.Entry(tmdSinhVien).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("TmdIndex");
             }
             ViewBag.TmdMaKH = new SelectList(db.TmdKhoa, "TmdMaKH", "TmdTenKH", tmdSinhVien.TmdMaKH);
             return View(tmdSinhVien);
         }
 
         // GET: TmdSinhViens/Delete/5
-        public ActionResult Delete(string id)
+        public ActionResult TmdDelete(string id)
         {
             if (id == null)
             {
@@ -110,14 +110,14 @@ namespace TmdLesson09.Controllers
         }
 
         // POST: TmdSinhViens/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("TmdDelete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult TmdDeleteConfirmed(string id)
         {
             TmdSinhVien tmdSinhVien = db.TmdSinhVien.Find(id);
             db.TmdSinhVien.Remove(tmdSinhVien);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("TmdIndex");
         }
 
         protected override void Dispose(bool disposing)
