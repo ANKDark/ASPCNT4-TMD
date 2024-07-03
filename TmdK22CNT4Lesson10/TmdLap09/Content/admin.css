@@ -1,0 +1,131 @@
+﻿#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    min-width: 990px;
+}
+
+#header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    background-color: #2D74AE;
+    background-image: url(images/titleleft.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#horizontal {
+    width: auto;
+    margin: 0;
+    padding-top: 8px;
+    height: 26px;
+    background-color: #006699;
+    color: White;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #006699;
+    height: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color: White;
+    font-style: italic;
+}
+
+#left {
+    width: 220px;
+    background-color: #006699;
+    vertical-align: top;
+}
+
+#right {
+    width: auto;
+    vertical-align: top;
+    padding-left: 1px;
+    background-image: url(images/content.png);
+}
+
+.powered_by {
+    color: white;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+    .powered_by a {
+        color: yellow;
+    }
+
+#tablebody {
+    width: 100%;
+}
+
+/************** Body *******************/
+body {
+    margin: 2px;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+/************ Panel menu *************/
+.msg_list {
+    margin-left: 5px;
+    margin-top: -3px;
+    padding: 0;
+    width: 210px;
+}
+
+.msg_head {
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+    background-image: url(images/bartitle.png);
+    background-repeat: repeat-x;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    color: white;
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+.msg_body {
+    padding: 5px 5px 10px;
+    background-image: url(images/bg_link.png);
+    background-repeat: repeat-y;
+    margin-left: 1px;
+    margin-top: 0;
+}
+    .msg_body li {
+        background-image: url('images/add.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        list-style-type: none;
+        padding-bottom: 5px;
+        padding-top: 4px;
+        padding-left: 20px;
+    }
+
+        .msg_body li a {
+            text-decoration: none;
+            color: #006699;
+        }
+
+            .msg_body li a:hover {
+                font-weight: bold;
+            }

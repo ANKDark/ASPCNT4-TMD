@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Scripts.Render("~/bundles/jquery")
+    <link href="~/Content/admin.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Show all elements with class msg_body
+            $(".msg_body").show();
+            // Toggle the component with class msg_body
+            $(".msg_head").click(function () {
+                $(this).next(".msg_body").slideToggle(200);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+        </div>
+        <div id="horizontal">
+            Xin chào:
+            @{
+                if (Session["username"] != null)
+                {
+                    <span>@Session["username"]</span>
+                }
+                else
+                {
+                    if (Request.Cookies["user"] != null)
+                    {
+                        Session["username"] = Request.Cookies["user"]["username"];
+                    }
+                    else
+                    {
+                        Response.Redirect("~/Administrator/Login");
+                    }
+                }
+            }
+            / <a style="color:white" href="/Home/Index">Trang chủ</a> / <a style="color:white" href="/Administrator/Logout">Đăng xuất</a>
+        </div>
+        <div id="main">
+            <table id="tablebody" border="0" cellspacing="0">
+                <tr>
+                    <td id="left">
+                        <div class="msg_list">
+                            <p class="msg_head">Quản lý danh mục</p>
+                            <ul class="msg_body">
+                                <li><a href="#">Loại thực đơn</a></li>
+                                <li><a href="#">Thực đơn</a></li>
+                                <li><a href="#">Đơn đặt hàng</a></li>
+                            </ul>
+
+                            <p class="msg_head">Quản lý thông tin chung</p>
+                            <ul class="msg_body">
+                                <li><a href="#">Bộ sưu tập slideshow</a></li>
+                                <li><a href="#">Thông tin giới thiệu</a></li>
+                                <li><a href="#">Người dùng</a></li>
+                            </ul>
+                        </div>
+                        <div class="powered_by">
+                            Copyright by : <b>Lại Đức Chung</b>
+                        </div>
+                    </td>
+                    <td id="right">
+                        <div>
+                            @RenderBody()
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="footer">Phiên bản Demo</div>
+</body>
+</html>

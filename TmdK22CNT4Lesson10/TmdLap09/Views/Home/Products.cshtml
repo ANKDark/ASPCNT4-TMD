@@ -1,0 +1,20 @@
+﻿@model IEnumerable<TmdLap09.Models.TmdProducts>
+
+@{
+    ViewBag.Title = "Products";
+}
+<h2>Dách sách sản phẩm</h2>
+<hr />
+<div class="products">
+    @foreach (var p in Model)
+    {
+        <div class="product">
+            <img width="160" height="140"
+                 src='@Url.Content("~/Content/TmdProducts/")@p.TmdPicture' title="@p.TmdName" />
+            <div class="productname">@p.TmdName</div>
+            <div class="productname">
+                @Html.ActionLink("Mua", "AddToBasket", new { id = p.TmdId })
+            </div>
+        </div>
+}
+</div>

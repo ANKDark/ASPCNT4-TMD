@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="TmdNhaHangModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TmdProducts">
+          <Key>
+            <PropertyRef Name="TmdId" />
+          </Key>
+          <Property Name="TmdId" Type="int" Nullable="false" />
+          <Property Name="TmdName" Type="nvarchar" MaxLength="50" />
+          <Property Name="TmdPicture" Type="nvarchar" MaxLength="50" />
+          <Property Name="TmdQuantity" Type="int" />
+          <Property Name="TmdPrice" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="TmdAmount" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityContainer Name="TmdNhaHangModelStoreContainer">
+          <EntitySet Name="TmdProducts" EntityType="Self.TmdProducts" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TmdNhaHangModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TmdProducts">
+          <Key>
+            <PropertyRef Name="TmdId" />
+          </Key>
+          <Property Name="TmdId" Type="Int32" Nullable="false" />
+          <Property Name="TmdName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TmdPicture" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TmdQuantity" Type="Int32" />
+          <Property Name="TmdPrice" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="TmdAmount" Type="Decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityContainer Name="TmdNhaHangEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TmdProducts" EntityType="Self.TmdProducts" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TmdNhaHangModelStoreContainer" CdmEntityContainer="TmdNhaHangEntities">
+          <EntitySetMapping Name="TmdProducts">
+            <EntityTypeMapping TypeName="TmdNhaHangModel.TmdProducts">
+              <MappingFragment StoreEntitySet="TmdProducts">
+                <ScalarProperty Name="TmdId" ColumnName="TmdId" />
+                <ScalarProperty Name="TmdName" ColumnName="TmdName" />
+                <ScalarProperty Name="TmdPicture" ColumnName="TmdPicture" />
+                <ScalarProperty Name="TmdQuantity" ColumnName="TmdQuantity" />
+                <ScalarProperty Name="TmdPrice" ColumnName="TmdPrice" />
+                <ScalarProperty Name="TmdAmount" ColumnName="TmdAmount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

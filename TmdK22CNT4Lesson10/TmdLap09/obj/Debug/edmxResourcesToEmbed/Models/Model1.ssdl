@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TmdNhaHangModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TmdProducts">
+    <Key>
+      <PropertyRef Name="TmdId" />
+    </Key>
+    <Property Name="TmdId" Type="int" Nullable="false" />
+    <Property Name="TmdName" Type="nvarchar" MaxLength="50" />
+    <Property Name="TmdPicture" Type="nvarchar" MaxLength="50" />
+    <Property Name="TmdQuantity" Type="int" />
+    <Property Name="TmdPrice" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="TmdAmount" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityContainer Name="TmdNhaHangModelStoreContainer">
+    <EntitySet Name="TmdProducts" EntityType="Self.TmdProducts" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

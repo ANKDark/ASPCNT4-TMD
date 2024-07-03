@@ -1,0 +1,42 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Đăng nhập</title>
+</head>
+<body>
+    <div style="border: solid 1px gray; padding: 10px; width: 400px; margin: auto;">
+        <h3>Đăng nhập hệ thống</h3>
+
+        @using (Html.BeginForm())
+        {
+            if (Request.Cookies["user"] != null)
+            {
+                @Html.DisplayName("Tên đăng nhập")<br />
+                @Html.TextBox("username", Request.Cookies["user"]["username"])<br />
+                @Html.DisplayName("Mật khẩu")<br />
+                @Html.Password("password", Request.Cookies["user"]["password"])
+            }
+            else
+            {
+                @Html.DisplayName("Tên đăng nhập")<br />
+                @Html.TextBox("username")<br />
+                @Html.DisplayName("Mật khẩu")<br />
+                @Html.Password("password")
+            }
+            <br />
+            <p>
+                @Html.CheckBox("remember", true) @Html.DisplayName("Nhớ mật khẩu")
+            </p>
+            <input type="submit" value="Đăng nhập" /> <a href="/Home/Index">Trang chủ</a>
+        }
+        <br />
+        <address>@ViewBag.error</address>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿@model List<TmdLap09.Models.TmdItem>
+@{
+    ViewBag.Title = "AddToBasket";
+}
+
+<h2>Do bạn đã chọn</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Mã SP</th>
+            <th>Tên</th>
+            <th>Ảnh</th>
+            <th>Số lượng</th>
+            <th>Giá</th>
+            <th>Thành tiền</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TmdId</td>
+                <td>@item.TmdName</td>
+                <td>
+                    <img width="50" height="50" src='@Url.Content("~/Content/TmdProducts/")@item.TmdPicture' />
+                </td>
+                <td>@item.TmdQuantity</td>
+                <td>@item.TmdPrice</td>
+                <td>@item.TmdAmount</td>
+            </tr>
+        }
+    </tbody>
+</table>

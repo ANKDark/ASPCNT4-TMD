@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TmdK22CNT4Lesson10", "TmdK22CNT4Lesson10\TmdK22CNT4Lesson10.csproj", "{1EFB3C44-6491-4E49-80E4-751F36B9363B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TmdLap09", "TmdLap09\TmdLap09.csproj", "{0C4F9303-1639-499B-B308-360765D147DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1EFB3C44-6491-4E49-80E4-751F36B9363B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EFB3C44-6491-4E49-80E4-751F36B9363B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EFB3C44-6491-4E49-80E4-751F36B9363B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4F9303-1639-499B-B308-360765D147DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4F9303-1639-499B-B308-360765D147DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4F9303-1639-499B-B308-360765D147DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4F9303-1639-499B-B308-360765D147DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
