@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<h3>Sử dụng CKFinder và CKEditor</h3>
+@using (Html.BeginForm())
+{
+    <div>
+        Hình ảnh: @Html.TextBox("Picture", null, new { id = "Picture" })
+        <input type="button" id="Browse" value="Duyệt ảnh" />
+    </div>
+    <div>
+        <h4>Mô tả chi tiết</h4>
+        @Html.TextArea("Detail", null, new { id = "Detail" })
+        @* đoạn code đáp ứng việc áp dụng Editor cho TextArea (phải đặt sau TextArea) *@
+        <script type="text/javascript">
+            CKEDITOR.replace("Detail");
+        </script><br />
+        <input type="submit" value="Lưu" />
+    </div>
+}
+
+<script>
+    $(document).ready(function () {
+        $("#Browse").click(function () {
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (fileUrl) {
+                // Lấy file ảnh đầy đủ
+                $("#Picture").val(fileUrl);
+            };
+            finder.popup();
+        });
+    });
+</script>

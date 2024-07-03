@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Learn\\ASP\\TMDLesson06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF784225-B23B-4DAF-9CBD-4BD727B6B908}|TMDLap05.1\\TMDLap05.1.csproj|C:\\Learn\\ASP\\TMDLesson06\\tmdlap05.1\\controllers\\tmdmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF784225-B23B-4DAF-9CBD-4BD727B6B908}|TMDLap05.1\\TMDLap05.1.csproj|solutionrelative:tmdlap05.1\\controllers\\tmdmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872A426F-027B-4B87-89F4-20DA4824118B}|Baitaptulam1_TMD\\Baitaptulam1_TMD.csproj|c:\\learn\\asp\\tmdlesson06\\baitaptulam1_tmd\\controllers\\tmdproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{872A426F-027B-4B87-89F4-20DA4824118B}|Baitaptulam1_TMD\\Baitaptulam1_TMD.csproj|solutionrelative:baitaptulam1_tmd\\controllers\\tmdproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF784225-B23B-4DAF-9CBD-4BD727B6B908}|TMDLap05.1\\TMDLap05.1.csproj|C:\\Learn\\ASP\\TMDLesson06\\tmdlap05.1\\models\\tmdmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF784225-B23B-4DAF-9CBD-4BD727B6B908}|TMDLap05.1\\TMDLap05.1.csproj|solutionrelative:tmdlap05.1\\models\\tmdmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TMDProductController.cs",
+              "DocumentMoniker": "C:\\Learn\\ASP\\TMDLesson06\\Baitaptulam1_TMD\\Controllers\\TMDProductController.cs",
+              "RelativeDocumentMoniker": "Baitaptulam1_TMD\\Controllers\\TMDProductController.cs",
+              "ToolTip": "C:\\Learn\\ASP\\TMDLesson06\\Baitaptulam1_TMD\\Controllers\\TMDProductController.cs",
+              "RelativeToolTip": "Baitaptulam1_TMD\\Controllers\\TMDProductController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAmwEwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T08:00:38.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TMDMemberController.cs",
+              "DocumentMoniker": "C:\\Learn\\ASP\\TMDLesson06\\TMDLap05.1\\Controllers\\TMDMemberController.cs",
+              "RelativeDocumentMoniker": "TMDLap05.1\\Controllers\\TMDMemberController.cs",
+              "ToolTip": "C:\\Learn\\ASP\\TMDLesson06\\TMDLap05.1\\Controllers\\TMDMemberController.cs",
+              "RelativeToolTip": "TMDLap05.1\\Controllers\\TMDMemberController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T07:56:07.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TMDMember.cs",
+              "DocumentMoniker": "C:\\Learn\\ASP\\TMDLesson06\\TMDLap05.1\\Models\\TMDMember.cs",
+              "RelativeDocumentMoniker": "TMDLap05.1\\Models\\TMDMember.cs",
+              "ToolTip": "C:\\Learn\\ASP\\TMDLesson06\\TMDLap05.1\\Models\\TMDMember.cs",
+              "RelativeToolTip": "TMDLap05.1\\Models\\TMDMember.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T07:36:43.284Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

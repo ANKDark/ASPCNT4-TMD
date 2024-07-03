@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "CustomerList";
+    var listcustomer_tmd = ViewBag.listcustomer_tmd as List<Lap04_TMD.Models.Customer_TMD>;
+}
+
+<h2>Danh sách khách hàng</h2>
+<table class="table-bordered">
+    <thead>
+        <tr>
+            <th>Mã KH</th>
+            <th>Họ và tên</th>
+            <th>Địa chỉ</th>
+            <th>Email</th>
+            <th>Điện thoại</th>
+            <th>Số dư</th>
+        </tr>
+    </thead>
+    <tbody>
+        @*Hiển thị danh sách khách hàng*@
+        @foreach (var c in listcustomer_tmd)
+        {
+            <tr>
+                <td>@c.CustomerId_TMD</td>
+                <td>@c.FullName_TMD</td>
+                <td>@c.Address_TMD</td>
+                <td>@c.Email_TMD</td>
+                <td>@c.Phone_TMD</td>
+                <td>@c.Balance_TMD</td>
+            </tr>
+        }
+    </tbody>
+</table>

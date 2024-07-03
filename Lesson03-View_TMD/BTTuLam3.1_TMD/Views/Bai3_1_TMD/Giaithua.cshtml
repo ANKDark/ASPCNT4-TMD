@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Giaithua";
+}
+
+<h2>Giai thừa _ Trần Minh Đức</h2>
+
+@{
+    for (int i = 1; i <= 10; i++)
+    {
+        int giaiThua = 1;
+        for (int j = 1; j <= i; j++)
+        {
+            giaiThua *= j;
+        }
+        <p>@i! = @giaiThua</p>
+    }
+}
+
+
+

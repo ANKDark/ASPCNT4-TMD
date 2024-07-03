@@ -1,0 +1,67 @@
+﻿@model TmdK22CNT4Lesson10.Models.TmdAccount
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_TmdLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TmdAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdActive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TmdID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

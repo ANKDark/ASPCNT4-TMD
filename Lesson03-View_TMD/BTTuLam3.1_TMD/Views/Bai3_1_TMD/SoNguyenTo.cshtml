@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "SoNguyenTo";
+}
+<h2>Số nguyên tố - Trần Minh Đức</h2>
+@{
+    List<int> sont = new List<int>();
+
+    for (int i = 1; i <= 100; i++)
+    {
+        if (Checksont(i))
+        {
+            sont.Add(i);
+        }
+    }
+
+    bool Checksont(int number)
+    {
+        if (number <= 1)
+            return false;
+
+        if (number == 2)
+            return true;
+
+        if (number % 2 == 0)
+            return false;
+
+        for (int j = 3; j <= Math.Sqrt(number); j += 2)
+        {
+            if (number % j == 0)
+                return false;
+        }
+
+        return true;
+    }
+}
+@foreach (var prime in sont)
+{
+    <li>@prime</li>
+}

@@ -1,0 +1,88 @@
+﻿@model TmdLesson09.Models.TmdSinhVien
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>TmdSinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdHoSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdNgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdNgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdNoiSinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdNoiSinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdHocBong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdHocBong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdDiemTrungBinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdDiemTrungBinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdKhoa.TmdTenKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdKhoa.TmdTenKH)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "TmdIndex")
+        </div>
+    }
+</div>

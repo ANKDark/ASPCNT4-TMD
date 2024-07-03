@@ -1,0 +1,58 @@
+﻿@model IEnumerable<_Lesson05___Model_in_AspNet_MVC_5_TMD.Models.TMDCustomer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create_TMD")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerID_TMD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName_TMD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName_TMD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address_TMD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.YearOfBirth_TMD)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerID_TMD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName_TMD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName_TMD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address_TMD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.YearOfBirth_TMD)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit_TMD", new { id=item.CustomerID_TMD }) |
+            @Html.ActionLink("Details", "Details_TMD", new { id = item.CustomerID_TMD }) |
+            @Html.ActionLink("Delete", "Delete_TMD", new { id = item.CustomerID_TMD }, 
+            new { @onclick = "return comfirm('Bạn có muốn xóa không?')" })
+        </td>
+    </tr>
+}
+
+</table>

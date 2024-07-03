@@ -1,0 +1,34 @@
+﻿@model TmdLesson09.Models.TmdMonHoc
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TmdMonHoc</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdTenMH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdTenMH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdSotiet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdSotiet)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TmdMaMH }) |
+    @Html.ActionLink("Back to List", "TmdIndex")
+</p>

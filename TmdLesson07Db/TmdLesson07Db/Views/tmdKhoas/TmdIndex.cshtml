@@ -1,0 +1,39 @@
+﻿@model IEnumerable<TmdLesson07Db.Models.tmdKhoa>
+
+@{
+    ViewBag.Title = "TmdIndex";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("TMD: Create New", "TmdCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdTenKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdTrangThai)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdTenKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdTrangThai)
+        </td>
+        <td>
+            @Html.ActionLink("TMD: Edit", "TmdEdit", new { id=item.TmdKH.Trim() }) |
+            @Html.ActionLink("TMD: Details", "TmdDetails", new { id=item.TmdKH.Trim() }) |
+            @Html.ActionLink("TMD: Delete", "TmdDelete", new { id=item.TmdKH.Trim() })
+        </td>
+    </tr>
+}
+
+</table>

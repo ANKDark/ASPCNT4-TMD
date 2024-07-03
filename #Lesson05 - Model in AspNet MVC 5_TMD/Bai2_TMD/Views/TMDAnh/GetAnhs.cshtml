@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Bai2_TMD.Models.Anh>
+
+@{
+    ViewBag.Title = "GetAnhs";
+}
+
+<h2>GetAnhs</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddAnh")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Ảnh
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img src="~/Content/Img/@item.anh" alt="Alternate Text" class="img-thumbnail" style="max-width: 200px; max-height: 200px;" />
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { id = item.anh }) <!-- Assuming your model has an 'Id' property -->
+            </td>
+        </tr>
+    }
+
+</table>

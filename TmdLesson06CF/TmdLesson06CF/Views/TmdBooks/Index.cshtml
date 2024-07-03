@@ -1,0 +1,69 @@
+﻿@model IEnumerable<TmdLesson06CF.Models.TmdBook>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdBookId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdAuthor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdPublic)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdPicture)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdCategoryId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdBookId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdAuthor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdPublic)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdPicture)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdCategoryId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TmdId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.TmdId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TmdId })
+        </td>
+    </tr>
+}
+
+</table>

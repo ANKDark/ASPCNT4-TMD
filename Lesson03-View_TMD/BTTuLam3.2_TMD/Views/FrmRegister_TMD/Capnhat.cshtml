@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "SubmitForm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Thông tin cập nhật</h2>
+<table class="table table-bordered">
+    <tr>
+        <td>Tên đơn vị tuyến :</td>
+        <td>@TempData["txtNameTMD"]</td>
+    </tr>
+    <tr>
+        <td>Loại hình doanh nghiệp :</td>
+        <td>@TempData["Loaihinhdoanhnghiep"]</td>
+    <tr>
+        <td>Địa chỉ :</td>
+        <td>@TempData["txtAddress"]</td>
+    </tr>
+    <tr>
+        <td>Người liên hệ :</td>
+        <td>@TempData["txtnguoilienhe"]</td>
+    </tr>
+    <tr>
+        <td>Số điện thoại :</td>
+        <td>@TempData["numberPhone"]</td>
+    </tr>
+    <tr>
+        <td>Tên đăng nhập :</td>
+        <td>@TempData["txtUName"]</td>
+    </tr>
+    <tr>
+        <td>Mật khẩu :</td>
+        <td>@TempData["txtPass"]</td>
+    </tr>
+    <tr>
+        <td>Nhận thư điện tử :</td>
+        <td>@TempData["YesNo"]</td>
+    </tr>
+</table>

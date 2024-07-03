@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="tmd_qlsinhvienModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TmdKetqua">
+    <Key>
+      <PropertyRef Name="TmdMaMH" />
+      <PropertyRef Name="TmdMaSV" />
+    </Key>
+    <Property Name="TmdMaMH" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="TmdMaSV" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="TmdDiem" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="TmdKhoa">
+    <Key>
+      <PropertyRef Name="TmdMaKH" />
+    </Key>
+    <Property Name="TmdMaKH" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="TmdTenKH" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TmdMonHoc">
+    <Key>
+      <PropertyRef Name="TmdMaMH" />
+    </Key>
+    <Property Name="TmdMaMH" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="TmdTenMH" Type="nvarchar" MaxLength="50" />
+    <Property Name="TmdSotiet" Type="int" />
+  </EntityType>
+  <EntityType Name="TmdSinhVien">
+    <Key>
+      <PropertyRef Name="TmdMaSV" />
+    </Key>
+    <Property Name="TmdMaSV" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="TmdHoSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="TmdTenSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="TmdPhai" Type="nvarchar" MaxLength="50" />
+    <Property Name="TmdNgaySinh" Type="date" />
+    <Property Name="TmdNoiSinh" Type="nvarchar" MaxLength="10" />
+    <Property Name="TmdMaKH" Type="char" MaxLength="10" />
+    <Property Name="TmdHocBong" Type="tinyint" />
+    <Property Name="TmdDiemTrungBinh" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <Association Name="FK_TmdKetqua_TmdMonHoc">
+    <End Role="TmdMonHoc" Type="Self.TmdMonHoc" Multiplicity="1" />
+    <End Role="TmdKetqua" Type="Self.TmdKetqua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TmdMonHoc">
+        <PropertyRef Name="TmdMaMH" />
+      </Principal>
+      <Dependent Role="TmdKetqua">
+        <PropertyRef Name="TmdMaMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TmdKetqua_TmdSinhVien">
+    <End Role="TmdSinhVien" Type="Self.TmdSinhVien" Multiplicity="1" />
+    <End Role="TmdKetqua" Type="Self.TmdKetqua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TmdSinhVien">
+        <PropertyRef Name="TmdMaSV" />
+      </Principal>
+      <Dependent Role="TmdKetqua">
+        <PropertyRef Name="TmdMaSV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TmdSinhVien_TmdKhoa">
+    <End Role="TmdKhoa" Type="Self.TmdKhoa" Multiplicity="0..1" />
+    <End Role="TmdSinhVien" Type="Self.TmdSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TmdKhoa">
+        <PropertyRef Name="TmdMaKH" />
+      </Principal>
+      <Dependent Role="TmdSinhVien">
+        <PropertyRef Name="TmdMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="tmd_qlsinhvienModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TmdKetqua" EntityType="Self.TmdKetqua" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TmdKhoa" EntityType="Self.TmdKhoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TmdMonHoc" EntityType="Self.TmdMonHoc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TmdSinhVien" EntityType="Self.TmdSinhVien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TmdKetqua_TmdMonHoc" Association="Self.FK_TmdKetqua_TmdMonHoc">
+      <End Role="TmdMonHoc" EntitySet="TmdMonHoc" />
+      <End Role="TmdKetqua" EntitySet="TmdKetqua" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TmdKetqua_TmdSinhVien" Association="Self.FK_TmdKetqua_TmdSinhVien">
+      <End Role="TmdSinhVien" EntitySet="TmdSinhVien" />
+      <End Role="TmdKetqua" EntitySet="TmdKetqua" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TmdSinhVien_TmdKhoa" Association="Self.FK_TmdSinhVien_TmdKhoa">
+      <End Role="TmdKhoa" EntitySet="TmdKhoa" />
+      <End Role="TmdSinhVien" EntitySet="TmdSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

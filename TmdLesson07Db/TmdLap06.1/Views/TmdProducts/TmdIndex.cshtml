@@ -1,0 +1,39 @@
+﻿@model IEnumerable<TmdLap06._1.Models.TmdProduct>
+
+@{
+    ViewBag.Title = "TmdIndex";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "TmdCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdPrice)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdProductName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdPrice)
+        </td>
+        <td>
+            @Html.ActionLink("TMD: Edit", "TmdEdit", new { id=item.TmdProductId }) |
+            @Html.ActionLink("TMD: Details", "TmdDetails", new { id=item.TmdProductId }) |
+            @Html.ActionLink("TMD: Delete", "TmdDelete", new { id=item.TmdProductId })
+        </td>
+    </tr>
+}
+
+</table>

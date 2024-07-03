@@ -1,0 +1,68 @@
+﻿@model Lap04_2_TMD.Models.Customer_TMD
+
+@{
+    ViewBag.Title = "Edit_TMD";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h3>Chỉnh sửa khách hàng</h3>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.CustomerId_TMD)
+
+        <div class="form-group">
+            @Html.Label("Họ và tên", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.FullName_TMD)
+                @Html.ValidationMessageFor(model => model.FullName_TMD)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Địa chỉ", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Address_TMD)
+                @Html.ValidationMessageFor(model => model.Address_TMD)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Email", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email_TMD)
+                @Html.ValidationMessageFor(model => model.Email_TMD)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Điện thoại", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Phone_TMD)
+                @Html.ValidationMessageFor(model => model.Phone_TMD)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Số dư", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Balance_TMD)
+                @Html.ValidationMessageFor(model => model.Balance_TMD)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value=" Lưu " class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Quay lại", "GetProduct_TMD")
+</div>

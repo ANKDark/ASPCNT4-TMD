@@ -1,0 +1,82 @@
+﻿@model TmdLesson09.Models.TmdSinhVien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TmdSinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdHoSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdNgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdNgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdNoiSinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdNoiSinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdHocBong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdHocBong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdDiemTrungBinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdDiemTrungBinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdKhoa.TmdTenKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdKhoa.TmdTenKH)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TmdMaSV }) |
+    @Html.ActionLink("Back to List", "TmdIndex")
+</p>

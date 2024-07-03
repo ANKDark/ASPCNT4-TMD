@@ -1,0 +1,51 @@
+﻿@model Baitaptulam1_TMD.Models.Product_TMD
+
+@{
+    ViewBag.Title = "Edit_TMD";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h3>Chỉnh sửa sản phẩm</h3>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.ProductId_TMD)
+
+        <div class="form-group">
+            @Html.Label("Tên sản phẩm", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ProductName_TMD)
+                @Html.ValidationMessageFor(model => model.ProductName_TMD)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Đơn vị", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Unit_TMD)
+                @Html.ValidationMessageFor(model => model.Unit_TMD)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Giá", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Price_TMD)
+                @Html.ValidationMessageFor(model => model.Price_TMD)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value=" Lưu " class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Quay lại", "GetProduct_TMD")
+</div>
