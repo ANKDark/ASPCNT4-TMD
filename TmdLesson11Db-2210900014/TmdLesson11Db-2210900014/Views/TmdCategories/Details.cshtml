@@ -1,0 +1,35 @@
+﻿@model TmdLesson11Db_2210900014.Models.TmdCategory
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Tmd2210900014Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TmdCategory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdCateName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdStatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TmdID }) |
+    @Html.ActionLink("Back to List", "TmdIndex")
+</p>

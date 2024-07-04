@@ -1,0 +1,71 @@
+﻿@model IEnumerable<TmdLesson11Db_2210900014.Models.TmdProduct>
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Tmd2210900014Layout.cshtml";
+}
+
+<h2>Danh sách sản phẩm</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdId2210900014)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdProName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdQty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdActive)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdCategory.TmdCateName)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdId2210900014)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdProName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdQty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdPrice)
+        </td>
+        <td>
+            @if (item.TmdActive == true)
+            {
+                <span style="color:green">Hoạt động</span>
+            }
+            else
+            {
+                <span style="color:red">Không hoạt động</span>
+            }
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdCategory.TmdCateName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.TmdId2210900014 }) |
+            @Html.ActionLink("Details", "Details", new { id = item.TmdId2210900014 }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.TmdId2210900014 })
+        </td>
+    </tr>
+}
+
+</table>

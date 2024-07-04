@@ -16,7 +16,7 @@ namespace TmdLesson11Db_2210900014
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "TmdHome", action = "TmdIndex", id = UrlParameter.Optional }
             );
         }
     }

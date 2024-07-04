@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TmdK22CNT4Lesson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TmdCategory">
+    <Key>
+      <PropertyRef Name="TmdID" />
+    </Key>
+    <Property Name="TmdID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TmdCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TmdStatus" Type="Boolean" />
+    <NavigationProperty Name="TmdProduct" Relationship="Self.FK_TmdProduct_TmdCategory" FromRole="TmdCategory" ToRole="TmdProduct" />
+  </EntityType>
+  <EntityType Name="TmdProduct">
+    <Key>
+      <PropertyRef Name="TmdId2210900014" />
+    </Key>
+    <Property Name="TmdId2210900014" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TmdProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TmdQty" Type="Int32" />
+    <Property Name="TmdPrice" Type="Double" />
+    <Property Name="TmdCateId" Type="Int32" />
+    <Property Name="TmdActive" Type="Boolean" />
+    <NavigationProperty Name="TmdCategory" Relationship="Self.FK_TmdProduct_TmdCategory" FromRole="TmdProduct" ToRole="TmdCategory" />
+  </EntityType>
+  <Association Name="FK_TmdProduct_TmdCategory">
+    <End Role="TmdCategory" Type="Self.TmdCategory" Multiplicity="0..1" />
+    <End Role="TmdProduct" Type="Self.TmdProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TmdCategory">
+        <PropertyRef Name="TmdID" />
+      </Principal>
+      <Dependent Role="TmdProduct">
+        <PropertyRef Name="TmdCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TmdK22CNT4Lesson11DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TmdCategory" EntityType="Self.TmdCategory" />
+    <EntitySet Name="TmdProduct" EntityType="Self.TmdProduct" />
+    <AssociationSet Name="FK_TmdProduct_TmdCategory" Association="Self.FK_TmdProduct_TmdCategory">
+      <End Role="TmdCategory" EntitySet="TmdCategory" />
+      <End Role="TmdProduct" EntitySet="TmdProduct" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

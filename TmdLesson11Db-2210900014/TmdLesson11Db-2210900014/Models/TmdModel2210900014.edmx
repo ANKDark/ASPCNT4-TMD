@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="TmdK22CNT4Lesson11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="TmdCategory">
+          <Key>
+            <PropertyRef Name="TmdID" />
+          </Key>
+          <Property Name="TmdID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TmdCateName" Type="nvarchar" MaxLength="50" />
+          <Property Name="TmdStatus" Type="bit" />
+        </EntityType>
+        <EntityType Name="TmdProduct">
+          <Key>
+            <PropertyRef Name="TmdId2210900014" />
+          </Key>
+          <Property Name="TmdId2210900014" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="TmdProName" Type="nvarchar" MaxLength="50" />
+          <Property Name="TmdQty" Type="int" />
+          <Property Name="TmdPrice" Type="float" />
+          <Property Name="TmdCateId" Type="int" />
+          <Property Name="TmdActive" Type="bit" />
+        </EntityType>
+        <Association Name="FK_TmdProduct_TmdCategory">
+          <End Role="TmdCategory" Type="Self.TmdCategory" Multiplicity="0..1" />
+          <End Role="TmdProduct" Type="Self.TmdProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TmdCategory">
+              <PropertyRef Name="TmdID" />
+            </Principal>
+            <Dependent Role="TmdProduct">
+              <PropertyRef Name="TmdCateId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="TmdK22CNT4Lesson11DbModelStoreContainer">
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TmdCategory" EntityType="Self.TmdCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TmdProduct" EntityType="Self.TmdProduct" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_TmdProduct_TmdCategory" Association="Self.FK_TmdProduct_TmdCategory">
+            <End Role="TmdCategory" EntitySet="TmdCategory" />
+            <End Role="TmdProduct" EntitySet="TmdProduct" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TmdK22CNT4Lesson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="TmdCategory">
+          <Key>
+            <PropertyRef Name="TmdID" />
+          </Key>
+          <Property Name="TmdID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TmdCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TmdStatus" Type="Boolean" />
+          <NavigationProperty Name="TmdProduct" Relationship="Self.FK_TmdProduct_TmdCategory" FromRole="TmdCategory" ToRole="TmdProduct" />
+        </EntityType>
+        <EntityType Name="TmdProduct">
+          <Key>
+            <PropertyRef Name="TmdId2210900014" />
+          </Key>
+          <Property Name="TmdId2210900014" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TmdProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TmdQty" Type="Int32" />
+          <Property Name="TmdPrice" Type="Double" />
+          <Property Name="TmdCateId" Type="Int32" />
+          <Property Name="TmdActive" Type="Boolean" />
+          <NavigationProperty Name="TmdCategory" Relationship="Self.FK_TmdProduct_TmdCategory" FromRole="TmdProduct" ToRole="TmdCategory" />
+        </EntityType>
+        <Association Name="FK_TmdProduct_TmdCategory">
+          <End Role="TmdCategory" Type="Self.TmdCategory" Multiplicity="0..1" />
+          <End Role="TmdProduct" Type="Self.TmdProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TmdCategory">
+              <PropertyRef Name="TmdID" />
+            </Principal>
+            <Dependent Role="TmdProduct">
+              <PropertyRef Name="TmdCateId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="TmdK22CNT4Lesson11DbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="TmdCategory" EntityType="Self.TmdCategory" />
+          <EntitySet Name="TmdProduct" EntityType="Self.TmdProduct" />
+          <AssociationSet Name="FK_TmdProduct_TmdCategory" Association="Self.FK_TmdProduct_TmdCategory">
+            <End Role="TmdCategory" EntitySet="TmdCategory" />
+            <End Role="TmdProduct" EntitySet="TmdProduct" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TmdK22CNT4Lesson11DbModelStoreContainer" CdmEntityContainer="TmdK22CNT4Lesson11DbEntities">
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="TmdK22CNT4Lesson11DbModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TmdCategory">
+            <EntityTypeMapping TypeName="TmdK22CNT4Lesson11DbModel.TmdCategory">
+              <MappingFragment StoreEntitySet="TmdCategory">
+                <ScalarProperty Name="TmdID" ColumnName="TmdID" />
+                <ScalarProperty Name="TmdCateName" ColumnName="TmdCateName" />
+                <ScalarProperty Name="TmdStatus" ColumnName="TmdStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TmdProduct">
+            <EntityTypeMapping TypeName="TmdK22CNT4Lesson11DbModel.TmdProduct">
+              <MappingFragment StoreEntitySet="TmdProduct">
+                <ScalarProperty Name="TmdId2210900014" ColumnName="TmdId2210900014" />
+                <ScalarProperty Name="TmdProName" ColumnName="TmdProName" />
+                <ScalarProperty Name="TmdQty" ColumnName="TmdQty" />
+                <ScalarProperty Name="TmdPrice" ColumnName="TmdPrice" />
+                <ScalarProperty Name="TmdCateId" ColumnName="TmdCateId" />
+                <ScalarProperty Name="TmdActive" ColumnName="TmdActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,59 @@
+﻿@model TmdLesson11Db_2210900014.Models.TmdProduct
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Tmd2210900014Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TmdProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TmdCategory.TmdCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TmdCategory.TmdCateName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TmdId2210900014 }) |
+    @Html.ActionLink("Back to List", "TmdIndex")
+</p>

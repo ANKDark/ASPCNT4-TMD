@@ -1,0 +1,47 @@
+﻿@model IEnumerable<TmdLesson11Db_2210900014.Models.TmdCategory>
+
+@{
+    ViewBag.Title = "Danh mục sản phẩm";
+    Layout = "~/Views/Shared/_Tmd2210900014Layout.cshtml";
+}
+
+<h2>Danh mục sản phẩm</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdCateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TmdStatus)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TmdCateName)
+        </td>
+        <td>
+            @if (item.TmdStatus == true)
+            {
+                <span style="color:green">Hoạt động</span>
+            }
+            else
+            {
+                <span style="color:red">Không hoạt động</span>
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TmdID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.TmdID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TmdID })
+        </td>
+    </tr>
+}
+
+</table>

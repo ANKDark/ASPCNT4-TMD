@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TmdK22CNT4Lesson11DbModelStoreContainer" CdmEntityContainer="TmdK22CNT4Lesson11DbEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="TmdK22CNT4Lesson11DbModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TmdCategory">
+      <EntityTypeMapping TypeName="TmdK22CNT4Lesson11DbModel.TmdCategory">
+        <MappingFragment StoreEntitySet="TmdCategory">
+          <ScalarProperty Name="TmdID" ColumnName="TmdID" />
+          <ScalarProperty Name="TmdCateName" ColumnName="TmdCateName" />
+          <ScalarProperty Name="TmdStatus" ColumnName="TmdStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TmdProduct">
+      <EntityTypeMapping TypeName="TmdK22CNT4Lesson11DbModel.TmdProduct">
+        <MappingFragment StoreEntitySet="TmdProduct">
+          <ScalarProperty Name="TmdId2210900014" ColumnName="TmdId2210900014" />
+          <ScalarProperty Name="TmdProName" ColumnName="TmdProName" />
+          <ScalarProperty Name="TmdQty" ColumnName="TmdQty" />
+          <ScalarProperty Name="TmdPrice" ColumnName="TmdPrice" />
+          <ScalarProperty Name="TmdCateId" ColumnName="TmdCateId" />
+          <ScalarProperty Name="TmdActive" ColumnName="TmdActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
