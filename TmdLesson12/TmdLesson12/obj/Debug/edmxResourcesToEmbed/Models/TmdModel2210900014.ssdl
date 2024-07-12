@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TranMinhDuc_2210900014Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Tmd_Sach">
+    <Key>
+      <PropertyRef Name="Tmd_MaSach" />
+    </Key>
+    <Property Name="Tmd_MaSach" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Tmd_TenSach" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tmd_SoTrang" Type="int" />
+    <Property Name="Tmd_NamXB" Type="date" />
+    <Property Name="Tmd_MaTG" Type="char" MaxLength="10" />
+    <Property Name="Tmd_TrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="Tmd_TacGia">
+    <Key>
+      <PropertyRef Name="Tmd_MaTG" />
+    </Key>
+    <Property Name="Tmd_MaTG" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Tmd_TenTacGia" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Tmd_Sach_Tmd_TacGia">
+    <End Role="Tmd_TacGia" Type="Self.Tmd_TacGia" Multiplicity="0..1" />
+    <End Role="Tmd_Sach" Type="Self.Tmd_Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tmd_TacGia">
+        <PropertyRef Name="Tmd_MaTG" />
+      </Principal>
+      <Dependent Role="Tmd_Sach">
+        <PropertyRef Name="Tmd_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TranMinhDuc_2210900014ModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tmd_Sach" EntityType="Self.Tmd_Sach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tmd_TacGia" EntityType="Self.Tmd_TacGia" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Tmd_Sach_Tmd_TacGia" Association="Self.FK_Tmd_Sach_Tmd_TacGia">
+      <End Role="Tmd_TacGia" EntitySet="Tmd_TacGia" />
+      <End Role="Tmd_Sach" EntitySet="Tmd_Sach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

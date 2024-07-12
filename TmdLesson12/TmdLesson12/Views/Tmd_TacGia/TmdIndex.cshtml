@@ -1,0 +1,34 @@
+﻿@model IEnumerable<TmdLesson12.Models.Tmd_TacGia>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TmdLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "TmdCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Tmd_TenTacGia)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tmd_TenTacGia)
+        </td>
+        <td>
+            @Html.ActionLink("TMD: Edit", "TmdEdit", new { id=item.Tmd_MaTG }) |
+            @Html.ActionLink("TMD: Details", "TmdDetails", new { id=item.Tmd_MaTG }) |
+            @Html.ActionLink("TMD: Delete", "TmdDelete", new { id=item.Tmd_MaTG })
+        </td>
+    </tr>
+}
+
+</table>

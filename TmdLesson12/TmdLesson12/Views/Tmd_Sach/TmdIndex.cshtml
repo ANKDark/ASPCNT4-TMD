@@ -1,0 +1,58 @@
+﻿@model IEnumerable<TmdLesson12.Models.Tmd_Sach>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TmdLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "TmdCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Tmd_TenSach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tmd_SoTrang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tmd_NamXB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tmd_TrangThai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tmd_TacGia.Tmd_TenTacGia)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tmd_TenSach)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tmd_SoTrang)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tmd_NamXB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tmd_TrangThai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tmd_TacGia.Tmd_TenTacGia)
+        </td>
+        <td>
+            @Html.ActionLink("TMD: Edit", "TmdEdit", new { id=item.Tmd_MaSach }) |
+            @Html.ActionLink("TMD: Details", "TmdDetails", new { id=item.Tmd_MaSach }) |
+            @Html.ActionLink("TMD: Delete", "TmdDelete", new { id=item.Tmd_MaSach })
+        </td>
+    </tr>
+}
+
+</table>

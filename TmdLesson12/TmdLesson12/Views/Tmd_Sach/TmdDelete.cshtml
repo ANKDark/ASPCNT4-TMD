@@ -1,0 +1,65 @@
+﻿@model TmdLesson12.Models.Tmd_Sach
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_TmdLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Tmd_Sach</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tmd_TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tmd_TenSach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tmd_SoTrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tmd_SoTrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tmd_NamXB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tmd_NamXB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tmd_TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tmd_TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tmd_TacGia.Tmd_TenTacGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tmd_TacGia.Tmd_TenTacGia)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "TmdIndex")
+        </div>
+    }
+</div>

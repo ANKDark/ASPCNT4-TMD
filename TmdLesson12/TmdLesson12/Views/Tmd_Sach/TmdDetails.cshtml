@@ -1,0 +1,59 @@
+﻿@model TmdLesson12.Models.Tmd_Sach
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_TmdLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tmd_Sach</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tmd_TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tmd_TenSach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tmd_SoTrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tmd_SoTrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tmd_NamXB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tmd_NamXB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tmd_TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tmd_TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tmd_TacGia.Tmd_TenTacGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tmd_TacGia.Tmd_TenTacGia)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "TmdEdit", new { id = Model.Tmd_MaSach }) |
+    @Html.ActionLink("Back to List", "TmdIndex")
+</p>
